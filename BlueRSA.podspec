@@ -12,7 +12,7 @@ s.osx.deployment_target = "11.5"
 s.ios.deployment_target = "14.5"
 s.tvos.deployment_target = "14.5"
 s.watchos.deployment_target = "7.5"
-s.source   = { :git => "https://github.com/Kitura/BlueRSA.git", :tag => s.version }
+s.source   = { :git => "https://github.cerner.com/careaware-connect/Kitura-BlueRSA-ios-lib.git", :tag => s.version }
 s.source_files = "Sources/CryptorRSA/*.swift"
 s.pod_target_xcconfig =  {
 'SWIFT_VERSION' => '5.0',
